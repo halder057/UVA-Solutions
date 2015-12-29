@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1341571850 source:g:\code block\156\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+
+1352328377 source:e:\code block\156\main.cpp
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<sstream>
+	<iomanip>
+	<string>
+	<vector>
+	<list>
+	<set>
+	<map>
+	<stack>
+	<queue>
+	<algorithm>
+	<iterator>
+	<utility>
+
