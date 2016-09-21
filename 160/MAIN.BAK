@@ -1,0 +1,55 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+   long int b[]={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97};
+   long int i,j,k,n,count=0,save,print[25]={},num;
+
+        while(scanf("%d",&n) && n)
+        {
+            save=n;
+            print[25]={0};
+
+             while(n!=1)
+             {
+                 num=n;
+                 j=0;
+                 count=0;
+                      while(num>1)
+                      {
+
+                         while(num%b[j]==0)
+                         {
+                             num=num/b[j];
+                             count++;
+                         }
+                          print[j]+=count;
+                          j++;
+                      }
+
+                 n--;
+             }
+
+             for(i=25;i>=0;i--)
+             {
+                if(print[i]!=0)
+                  break;
+             }
+             j=i;
+
+             printf("%ld ! = ",save);
+             for(i=0;i<=j;i++)
+              printf("%3ld",print[i]);
+              printf("\n");
+
+
+        }
+
+
+
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1343505626 source:g:\code block\138\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<string>
+	<cctype>
+	<stack>
+	<queue>
+	<list>
+	<vector>
+	<map>
+	<sstream>
+	<utility>
+	<set>
+	<math.h>
+
