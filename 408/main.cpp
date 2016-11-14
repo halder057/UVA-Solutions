@@ -7,7 +7,7 @@ TASK:
 ALGO:
 05
 */
-
+//little change
 /*
 #pragma warning (disable: 4786)
 #pragma comment (linker, "/STACK:0x800000")
