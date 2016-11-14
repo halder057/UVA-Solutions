@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1349339898 source:e:\code block\408\main.cpp
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<sstream>
+	<iomanip>
+	<string>
+	<vector>
+	<list>
+	<set>
+	<map>
+	<stack>
+	<queue>
+	<algorithm>
+	<iterator>
+	<utility>
+
